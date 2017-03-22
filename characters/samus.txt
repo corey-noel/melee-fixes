@@ -1,0 +1,24 @@
+Samus
+---------------
+* Attributes
+    * Roll duration decreased
+* Neutral special
+    * Can be charged in the air
+    * Firing animation land cancels
+* Side special
+    * Homing missiles home better
+* Down special
+    * Bomb BKB increased
+    * Angle changed to straight up
+* Up smash
+    * Now a single hit attack
+    * Samus hits in front of and above herself, creating a disjointed explosion hitbox
+    * Great KBG, low startup and endlag. Great anti-air.
+* Grab
+    * Standing grab
+        * Initial hand hitbox moved to frame 11-12
+        * Tether portion moved to 13-29
+        * Total animation length shortened (94 -> 74)
+    * Running grab
+        * Initial hand hitbox moved to frame 13-14
+        * Tether portion moved to 15-33

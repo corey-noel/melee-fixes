@@ -1,0 +1,32 @@
+Roy
+----------
+* Attributes
+    * Double jump height increased
+    * Given wall jump
+    * The hilt hitboxes on many attacks with different hilt/tip knockbacks given fire effects, making it easier to distinguish hilt from the tip
+* Side special
+    * Does a better job of stalling Roy in the air
+* Up air
+    * Hilt BKB increased heavily
+    * Slight increase to tip BKB
+* Forward air
+    * Hilt angle lowered to be almost horizontal
+    * Hilt BKB massively increased
+    * Tip pops up, similar to Marth's, but weaker
+    * Tip BKB heavily increased
+* Down air
+    * Endlag reduced
+    * Landing lag reduced by 5 frames
+    * Hilt made into a spike with high BKB and a fire effect
+    * Tip made into a popup hitbox that sends straight up
+    * Hilt sweetspot given priority over tip sourspot
+* Back air
+    * KBG on all hitboxes increased
+    * Functions as a kill move at the hilt
+* Dash attack
+    * Hitbox duration increased by 2 frames
+    * Tip BKB and KBG increased
+* Forward tilt
+    * Tip BKB increased
+* Down tilt
+    * Tip BKB increased

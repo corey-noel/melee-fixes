@@ -1,0 +1,18 @@
+Mario
+---------------
+* Attributes
+    * Slight increase to initial dash speed
+* Up special
+    * Landing lag reduced (30 -> 20)
+* Down special
+    * No longer reduces drift after using
+    * Gains max height more easily
+    * Interruptibility improved by a few frames
+* Forward air
+    * Startup lag reduced by a few frames
+    * End lag reduced hugely
+* Forward tilt
+    * KBG increased
+    * SKB bug removed
+* Down tilt
+    * Interruptibility improved heavily

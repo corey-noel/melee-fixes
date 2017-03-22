@@ -1,0 +1,35 @@
+Donkey Kong
+----------
+* Attributes
+    * Shrunk chest hurtbox
+    * Spotdodge made 17/27
+    * Natural landing lag reduced to 4 frames
+    * Slight increase to double jump height
+* Neutral special
+    * DK no longer enters helpless after using, still autocancels the same way
+* Up special
+    * Grounded back hit made lower and larger
+    * Gains about 1.2 times as much height
+* Side special
+    * Side special will bury opponents even when used while DK is in the air
+    * Given invincibility on the head
+    * Shield DMG massively increased (made 30)
+    * Range improved
+* Neutral air
+    * Startup lag reduced (10 -> 5)
+    * Hitboxes made larger and fixed up
+* Forward air
+    * Startup reduced slightly
+    * Autocancel window added <8 50>
+* Down air
+    * Startup reduced slightly
+    * Endlag reduced
+    * Landing lag reduced slightly
+* All tilts, forward and up smash, back air
+    * Range/disjoint improved
+* Jab
+    * BKB on both hits increased
+* Dash attack
+    * Endlag reduced heavily
+* Grab
+    * Increase to standing grab range

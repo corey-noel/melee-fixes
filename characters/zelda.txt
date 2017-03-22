@@ -1,0 +1,45 @@
+Zelda
+----------
+* Attributes
+    * Increased to max air speed and air accel
+    * Decreased traction for longer wavedash
+    * Increased initial dash speed and run speed
+    * Jumpsquat reduced to 5 frames
+    * Spotdodge made 17/27
+* Forward special
+    * Minimum time before releasing decreased
+    * Time between releasing B and explosion massively decreased
+    * Much higher base speed
+    * No longer puts Zelda in helpless after using
+    * Endlag reduced heavily
+* Nair
+    * Hitboxes all made larger
+    * Angles all made more vertical
+    * Landing lag decreased
+* Uair
+    * Hitbox made larger and lower to be closer to Zelda
+    * Startup and englad both reduced slightly
+    * KBG and BKB increased
+* Dair
+    * BKB and KBG increased massively
+    * Made electric
+    * DMG increased to 12%
+* Jab
+    * Startup reduced by 4 frames
+    * Hitboxes redone. Only has two hitboxes, one on Zelda's arm and the other on the spark. Both made larger, with the move reaching further and lower than before
+    * Hits on 7, 9, 11, and 13, each dealing 2%
+    * BKB increased
+* Up smash
+    * Upper hitboxes made larger
+    * Hitboxes added on Zelda's legs, popping opponents up and centering them
+    * Knockback on early hits reduced and turned inward to better combo
+    * Arm movement speed increased, now only hits 3 times (2 early hitboxes and one finishing one)
+* Forward smash
+    * Angle changed on repeating hits to better combo
+* Up tilt
+    * Startup improved
+    * Hand movement speed increased
+    * Duration decreased
+* Grab
+    * Grab comes out on frame 7
+    * Dash grab comes out on frame 11

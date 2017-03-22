@@ -1,0 +1,40 @@
+Pichu
+----------
+* Attributes
+    * Slight weight increase
+	* All techs and getups moderately increased in length
+    * Slight increase to initial dash and run speed
+* Recoil DMG
+    * Fair (1), dair (1 + 1 upon landing), bair (1), fsmash (2), dsmash (1), pummel (1), fthrow (1), up special second segment (1), forward special (2), down special (varies)
+* Down special
+    * New down special: Discharge
+    * Charges as Pichu takes recoil DMG. Goes through various stages, with sparks around Pichu becoming more visually apparent in each stage. Can be released at any stage, with varying effects
+    * Stages (based on amount of redcoil DMG taken since last use)
+        * 0-1: no effect
+        * 2-4: a short, shine-esque burst. Doesn't come out frame 1 and not jump cancelable, but very quick with little lag, and sends opponents up and to the side. Has KBG and doesn't necessarily combo floaties. 1 recoil DMG
+        * 5-7: A quick and damaging double hit. Meteors opponents twice, causing them to reel from the meteor angle long enough to be confirmed out of (think Zelda down tilt). 2 recoil DMG
+        * 8+: a kill move. Longer animation, some disjoint on all sides, slower startup, around the knockback you'd expect from a knee. 2 recoil DMG
+* Up air
+	* Tail hitbox begins below Pichu rather than behind and travels up its back, returning to the front at the end of the move. Allows it to hit in front of Pichu consistently
+	* DMG increased to 6%
+    * BKB reduced
+* Forward air
+	* Made into a strong single hit move with high BKB, a low launch angle, and very little KBG. Active on frame 13. 11%
+* Down air
+	* Now a drill, hitting 4 times for a total of 8%
+	* All hits spike with fixed knockback, making it a proper combo drill
+    * Quake hitbox no longer fixed knockback
+* Back air
+	* KBG increased heavily, made into a proper sex kick kill move
+	* Active frames and duration decreased
+    * Given an electric effect on the strong hit
+* Forward smash
+    * Only two repetitions of the early hitboxes and a larger finisher with better range, giving opponents less time to escape
+    * Early hits happen faster and deal less DMG
+* Down smash
+    * Given an electric effect
+* Forward tilt
+    * Range increased slightly
+    * BKB increased
+* Grabs
+	* Slightly increased range on both grab and dash grab

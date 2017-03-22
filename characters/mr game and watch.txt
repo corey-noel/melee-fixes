@@ -1,0 +1,36 @@
+Mr. Game & Watch
+----------
+* Attributes
+    * Substantially larger shield size
+    * Weight increased slightly
+    * Duration of dash slightly increased
+    * Spotdodge made 14/22
+    * Roll invincibility improved and normalized
+* Neutral special
+    * Does not reset aerial momentum
+    * Endlag reduced
+    * First bacon per use of the move always launches at the same moderately low angle
+        * Later bacons take random trajectories
+* Neutral air
+    * Able to be l-cancelled, landing lag slightly increased to compensate (less overall)
+* Up air
+    * Able to be l-cancelled
+    * Removed second hit, massively decreasing duration
+    * Removed grounded hit
+* Forward air
+    * Strong hit out for one additional frame
+* Back air
+    * Able to be l-cancelled
+* Up smash
+    * Startup reduced (24 -> 14)
+    * Cooldown reduced slightly
+    * Nose given invincibility
+* Forward smash
+    * Early hit lasts 3 frames longer
+    * BKB and KBG increased on late hit
+* Down smash
+    * Sweetspot BKB increased
+    * Sweetspot given priority
+* Forward tilt
+    * Slight improvement to startup
+    * Increased DMG and BKB

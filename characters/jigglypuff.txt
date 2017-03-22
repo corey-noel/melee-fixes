@@ -1,0 +1,9 @@
+Jigglypuff
+---------------
+* Attributes
+    * Traction decreased, allowing much better ground movement
+    * Crouch hurtbox made more consistent (does not bounce)
+        * Can always be grabbed by Sheik and Marth dash grabs, but never by their standing grabs
+* Down special
+    * Duration decreased (249 -> 200)
+    * BKB reduced, causing the move to start killing later (at about 25-35% before hit)

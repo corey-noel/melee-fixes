@@ -1,0 +1,35 @@
+Link
+---------------
+* Attributes
+    * Jumpsquat decreased to 5
+* Neutral special
+    * Charge can be stored like any other charge projectile, press shield to cancel charge and store it
+    * Charge speed halved (duration doubled)
+    * Angle moved to 40 degrees
+    * Cooldown reduced
+    * Pointblank arrow sourspot removed
+* Up special
+    * DMG increased by 2% on last hit of aerial Spin Attack
+* Side special
+    * Returning boomerang KB increased
+    * Boomerang catch made entirely interruptible
+* Down air
+    * Landing lag decreased (50 -> 32)
+* Up smash
+    * Hits much lower to the sides of Link, allowing it to hit grounded enemies and combo better
+    * KB tweaked to better combo
+* Forward tilt
+    * Comes out on frame 10
+* Grabs
+    * Standing grab
+        * Hand hitbox on frame 10-11
+        * Tether hitbox on frame 12-17
+        * End lag reduced by 15 frames (85 -> 70)
+    * Dash grab
+        * Hand hitbox on frame 11-12
+        * Tether hitbox on frame 13-17
+        * End lag reduced by 15 frames (95 -> 80)
+* Forward throw
+    * BKB and KBG increased
+* Back throw
+    * KBG increased

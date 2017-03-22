@@ -1,0 +1,27 @@
+Young Link
+---------------
+* Neutral special
+    * Charge can be stored like any other charge projectile, press shield to cancel charge and store it
+    * Charge speed halved (duration doubled)
+    * BKB increased
+    * Cool-down reduced
+    * Pointblank arrow sourspot removed
+* Side special
+    * Returning boomerang KB increased
+    * Boomerang catch made entirely interruptible
+* Down air
+    * Landing lag decreased (50 -> 32)
+* Up smash
+    * Hitboxes moved further down on YL to hit grounded opponents
+    * SKB tweaked to better combo
+* Forward smash
+    * Second hit can be used much sooner
+* Grabs
+    * Standing grab
+        * End lag reduced by 15 frames (85 -> 70)
+    * Dash grab
+        * End lag reduced by 15 frames (95 -> 80)
+* Forward throw
+    * BKB and KBG increased
+* Back throw
+    * KBG increased

@@ -1,0 +1,33 @@
+Yoshi
+----------
+* Attributes
+    * Slightly increased max air speed
+    * Can buffer spotdodges and rolls using the c stick
+    * Shield will no longer randomly powershield
+* Neutral special
+    * No longer grants invulnerability to opponent after break out
+    * Egged DMG multiplier removed/made 1
+* Up special
+    * Eggs will last 1.3 times as long before breaking
+* Forward special
+    * Egg roll pops Yoshi up slightly on the first use each airtime
+    * Hitboxes cleaned up to actually be on the egg
+    * Can be canceled sooner by pressing B again
+    * Does not put Yoshi into helpless
+* Forward air
+    * Slight startup decrease
+* Back air
+    * Angle made more vertical
+    * BKB increase, KBG decreased
+* Dash attack
+    * Nose given invincibility
+* Up smash
+    * KBG increased
+* Grab
+    * Standing grab
+        * Comes out frame 10
+        * Animation length shortened (79 -> 70)
+        * Range/duration increased to match animation
+    * Dash grab
+        * Yoshi no longer decides to not hit things by moving really far in the z axis
+        * Range/duration increased to match animation

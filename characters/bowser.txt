@@ -1,0 +1,75 @@
+Bowser
+----------
+* Attributes
+    * Jump squat reduced to 5 frames
+    * Natural landing lag reduced to 4 frames
+    * Walk speed increased
+    * Initial dash speed increased
+    * Slight increase to air acceleration
+    * Max air speed increased
+    * Hurtboxes on torso/shell made smaller and cleaned up. The spikes on Bowser's shell do not have individual hurtboxes currently, but the torso/shell hurtboxes were made larger than they needed to be in vanilla Melee to include the spikey area. This is dumb.
+    * Spotdodge made 17/27 (invincible on frame 2, like every other spotdodge in the game)
+    * Roll startup and cooldown improved
+    * Double jump height increased
+* Up special
+    * Gains about 1.3 times as much height
+    * Can grab edge backward more reliably
+    * No longer reduces drift after using
+* Side special
+    * Startup reduced by a few frames
+    * No longer resets Bowser's momentum in the air
+* Down special
+    * KBG, BKB, and DMG increased heavily serving as an early KO move
+    * Shield DMG increased to 50 (shields have 50 health max)
+    * Disjoint beneath Bowser improved
+* Neutral special
+    * Flame canceling re-added
+    * Endlag very heavily reduced, effectively removed
+    * Minimum length and looping made shorter, allowing for more flexible ending of the move
+    * DMG and KB increased
+* Up air
+    * Landing lag reduced
+* Forward air
+    * DMG increased by 2%
+    * Slight increase to BKB
+    * Landing lag reduced
+* Down air
+    * Startup reduced
+    * Landing lag heavily reduced
+    * Limbs given invincibility
+    * Grounded hit meteors
+    * Grounded hit SKB increased
+    * DMG of each multihit increased by 1%
+* Back air
+    * Landing lag reduced
+* Neutral air
+    * Limbs made invincible
+    * Hitboxes cleaned up and made larger, making the move very disjointed on all sides. Will beat pretty much everything except for swords
+    * Hitboxes become smaller after strong hit, matching the size of Bowser's shell
+    * Slight startup reduction (8 -> 6)
+    * Duration of hitbox increased
+    * DMG increased
+    * BKB increased
+    * Landing lag reduced
+* Dash attack
+    * Given head invincibility
+* Up smash
+    * Startup reduced slightly
+    * KBG increased
+    * Invincibility lasts for the duration of the strong hit
+* Forward smash
+    * Startup reduced slightly
+    * Range improved
+    * Given head invincibility
+    * KBG increased
+    * Animation fixed up to improve pull-back effect (namely the forward reaching arm no longer sticks way out there to get hit)
+* Up tilt
+    * Hits lower to the sides of Bowser
+* Forward tilt
+    * Startup reduced slightly
+* Down tilt
+    * Startup reduced
+    * Second hit removed
+    * Endlag reduced
+* Back throw
+    * KBG increased to serve as a kill throw

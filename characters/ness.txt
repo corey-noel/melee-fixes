@@ -1,0 +1,53 @@
+Ness
+----------
+* Attributes
+    * Double jump dips and rises much faster. Can still DJC down and DJC to boost sideways
+    * Increased max air speed and slight increase to air accel
+    * Slight increase to initial dash speed
+* Neutral special
+    * Soonest possible burst made sooner, shortly after the end of the startup animation
+    * Bursts sooner after B is released (20 -> 10)
+    * Lag after bursting heavily decreased
+    * No longer puts Ness in helpless after using
+* Up special
+    * Projectile has a smaller turn radius and travels faster
+    * Projectile travels through players upon hitting them
+    * PK Thunder 2
+        * When colliding with walls at a shallow angle, Ness will now ride the wall at the same angle instead of bouncing off of it (like spacies)
+        * When colliding with walls at a steep angle, Ness will turn to ride up the wall (like the current Ness up special)
+        * Hang time at the end of the launch reduced
+        * Ability to drift immediately after hang time increased
+* Side special
+    * Projectile comes out much higher on Ness in the grounded version, meaning it will catch low short hops
+    * Angle on aerial version made more shallow
+    * Startup and endlag both reduced by a few frames
+    * Aerial version landcancels
+    * Fire hitbox made slightly larger
+* Down special
+    * Starts absorbing on frame 5
+    * Can be jump cancelled starting on frame 4
+    * Can be turned around during, akin to shine
+    * Stops nearly all downward drifting in the air for a moment
+    * Does not stop horizontal movement
+    * (Still doesn't have a hitbox, purely a movement tool that allows Ness to hang in the air before DJCing to mixup timings)
+* Dash attack
+    * First two hits made more horizontal and knockback increased to better combo
+* Down air
+    * Startup reduced slightly. (Not 64 dair)
+* Neutral air
+    * BKB increased on both clean and late hit
+    * Slight reduction to landing lag
+    * Slight increase to range
+* Up smash
+    * RIP yo-yo glitch, it's much too jank
+    * Release hit KBG increased (and made more consistent) to serve as a vertical kill move
+    * Yo-yo movement speed increased, letting it hit in front and then behind shortly after
+    * Initial hit knockback reduced and made fixed, allowing it to combo into the charge hits
+* Down smash
+    * Release hit KBG increased, letting the move send offstage to set up edge guards
+    * Yo-yo movement speed increased, letting it hit behind and then in front shortly after
+    * Initial hit knockback reduced and made fixed, allowing it to combo into the charge hits
+* Up tilt
+    * Hands made invincible (the head invincibility is useless otherwise, as his hands are higher than his head)
+* Grab
+    * Grab hitboxes for both grab and dash grab made larger

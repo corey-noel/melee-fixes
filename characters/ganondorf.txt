@@ -1,0 +1,28 @@
+Ganondorf
+---------------
+* Attributes
+    * Initial dash speed increased
+    * Max air speed and air drift increased slightly
+    * Jump squat reduced to 5
+    * Natural landing lag reduced to 4
+    * Gains slightly more height from double jump
+    * Spotdodge made 17/27
+* Up special
+    * Increased edge grab box size, allowing sweetspotting under more moves
+* Side special
+    * Grounded side special angle changed to 90
+    * Aerial launch angle changed to 340 degrees (slightly below straight forward)
+    * BKB and KBG on both aerial and grounded versions increased
+* Neutral air
+    * Hitbox duration increased on both hits
+    * First hit KBG decreased and made more vertical
+    * Landing lag decreased
+* Down air
+    * Landing lag decreased
+* Up tilt
+    * Made into a normal axe kick, like Samus' or Falcon's, but a bit slower and a bit more disjointed
+    * Legs are intangible from a few frames before the hitbox through the duration of the hitbox
+    * Meteors grounded opponents, sends aerial ones up and away
+    * Massive shield DMG
+    * 19%
+    * Very high BKB

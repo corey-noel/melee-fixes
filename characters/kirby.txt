@@ -1,0 +1,44 @@
+Kirby
+----------
+* Attributes
+    * Max air speed increased massively
+    * Air acceleration increased massively
+    * Initial dash and run speeds increased
+    * Walk speed increased
+    * Crouch hurtbox made consistent (no longer bounces)
+    * Kirby having powers knocked out of him is no longer random. If Kirby takes 60% since gaining a power, he will drop it
+* Side special
+    * Sweetspot made slightly easier to hit
+    * Sourspot knockback increased
+    * Slight startup reduction. Great for punishing read spot dodges and techs
+* Neutral special
+    * Grab hitbox comes out a few frames sooner (17 -> 13)
+    * Swallowing endlag reduced
+    * Swallowing puts opponents in hitstun/tumble
+    * All changes to character's stolen special moves apply to Kirby's moves as well
+* Down special
+    * Startup animation shortened
+    * Falling speed increased
+    * Can be canceled sooner
+    * Cancel animation length shortened massively
+* Forward air
+    * Time between each hit decreased by a few frames
+* Down air
+    * Slight startup reduction
+* Neutral air
+    * Startup decreased massively (10 -> 4)
+    * Dur decreased, endlag decreased
+    * Perpetually functions as a weak hit nair
+* Dash attack
+    * Movement speed increased
+    * BKB increased on all hits
+    * Duration decreased
+* Up throw
+    * Will no longer leave stage
+    * No longer takes away Kirby's jumps, allowing him to get aerial followups
+* Forward throw
+    * Will no longer leave stage
+    * Can no longer be mashed out of
+* Back throw
+    * Will no longer leave stage
+    * Can no longer be mashed out of
