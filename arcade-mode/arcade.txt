@@ -1,0 +1,6 @@
+Arcade mode
+----------
+
+* Arcade mode is a special Melee type
+* In it, characters are modified to be moderately ridiculous
+* They are buffed and silly, but not so far that the game becomes unplayable
