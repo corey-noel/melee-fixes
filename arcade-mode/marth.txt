@@ -1,0 +1,10 @@
+Marth
+----------
+
+* Tippers on all moves given a new, special stun effect
+* Duration of stun based on the amount of knockback taken from the move
+* Once stunned, opponents are frozen where they are for what is essentially long, non-SDIable hitlag before they are sent flying
+* Opponents will not fall during stun if they are not grounded
+* When stun ends, opponents will go flying in whatever direction the move they were most recently hit by will send them
+* In other words, if they are hit again during stun, they will take the trajectory of the move that hit them during stun
+* Non-tipper hitboxes made uselessly weak and given priority over tipper hitboxes (which is even worse than them being removed)

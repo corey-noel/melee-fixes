@@ -1,0 +1,20 @@
+Bowser
+----------
+
+* As Bowser deals damage or is damaged, he builds rage
+* Taking damage results in gaining rage at a rate of .5 of the damage taken
+* Dealing damage results in gaining rage at a rage equal to the damage dealt
+* Once rage is at 80, it is considered to be full. This will be shown by a visual effect.
+* Rage carries between stocks
+
+* Down special
+	* Replaced with Koopa Rage
+	* Can only be used once rage is full
+	* Drains rage to zero, and Bowser gain 10 seconds of the following effects
+		* Projectile invincibility
+		* Fire effects on all moves
+		* Subtractive armor, slightly stronger than Yoshi's
+		* Double damage dealt
+		* Increased hitbox sizes
+		* Increased run speed and weight
+		* Decreased jump squat

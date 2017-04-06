@@ -1,0 +1,7 @@
+Link
+----------
+
+* Down special
+	* Made into a toggle between regular mode and bomb mode
+	* Regular mode is, well, regular
+	* In bomb mode, all of Link's normals are replaced with the bomb throw tied to that move, with the exception of z-dropping
