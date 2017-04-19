@@ -4,9 +4,6 @@ Pikachu
     * Larger shield size
 * Up air
     * DMG increased to 6%
-* Back air
-    * Early hit KBG increased moderately
-    * Given an electric effect on the strong hit
 * Up smash
     * Late hit BKB and DMG increased
     * Late hit angle made the same as early hit

@@ -1,5 +1,0 @@
-Captain Falcon
-----------
-
-* Strong knee gives CF his double jump back
-* Knee, stomp, and all grounded moves are interruptible with jump

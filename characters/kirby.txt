@@ -27,7 +27,7 @@ Kirby
     * Slight startup reduction
 * Neutral air
     * Startup decreased massively (10 -> 4)
-    * Dur decreased, endlag decreased
+    * Duration decreased, endlag decreased
     * Perpetually functions as a weak hit nair
 * Dash attack
     * Movement speed increased

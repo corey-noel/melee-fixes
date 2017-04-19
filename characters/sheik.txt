@@ -2,3 +2,5 @@ Sheik
 ---------------
 * Neutral special
     * Aerial needle angles and grounded needle heights are no longer RNG
+* Up special
+	* Ability to drift after poofing doubled

@@ -1,4 +1,4 @@
-Mewtwo
+ Mewtwo
 ----------
 * Attributes
     * Two outermost hurtboxes of tail removed, leaving just one at the base

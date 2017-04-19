@@ -1,5 +1,0 @@
-Sheik/Zelda
-----------
-
-* Down special
-	* Transform is only one frame long

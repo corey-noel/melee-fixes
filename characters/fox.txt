@@ -9,6 +9,6 @@ Fox
     * No invincibility
     * Shrunk to match Falco's shine's size
 * Up air
-    * Reduced BKB and DMG, making the move worse at comboing early and worse at killing later
+    * Second hit DMG 17 -> 11
 * Up throw, down throw, and back throw
     * Lasers follow a fixed pattern/arc of angles instead of being RNG

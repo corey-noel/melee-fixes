@@ -1,9 +1,0 @@
-Peach
-----------
-
-* Peach's down special no longer pulls turnips, but now instead pulls various items from the game
-* Consumable items are immediately consumed
-* Some items are more rare than others and appear much less often due to power level
-	* Super Star
-	* Heart container
-	* Hammer

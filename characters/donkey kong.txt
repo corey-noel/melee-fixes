@@ -6,7 +6,7 @@ Donkey Kong
     * Natural landing lag reduced to 4 frames
     * Slight increase to double jump height
 * Neutral special
-    * DK no longer enters helpless after using, still autocancels the same way
+    * DK no longer enters helpless after using
 * Up special
     * Grounded back hit made lower and larger
     * Gains about 1.2 times as much height
