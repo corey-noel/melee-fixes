@@ -16,7 +16,6 @@ Mr. Game & Watch
 * Up air
     * Able to be l-cancelled
     * Removed second hit, massively decreasing duration
-    * Removed grounded hit
 * Forward air
     * Strong hit out for one additional frame
 * Back air

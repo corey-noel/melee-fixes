@@ -1,7 +1,7 @@
 Zelda
 ----------
 * Attributes
-    * Increased max air speed and air accel
+    * Increased max air speed and air accel, giving Zelda a great deal of control in the air
     * Decreased traction for longer wavedash
     * Increased initial dash speed and run speed
     * Jumpsquat reduced to 5 frames
@@ -9,7 +9,7 @@ Zelda
 * Forward special
     * Minimum time before releasing decreased
     * Time between releasing B and explosion massively decreased
-    * Much higher base speed
+    * Slightly higher base speed
     * No longer puts Zelda in helpless after using
     * Endlag reduced heavily
 * Nair

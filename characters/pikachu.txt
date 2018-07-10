@@ -3,7 +3,7 @@ Pikachu
 * Attributes
     * Larger shield size
 * Up air
-    * DMG increased to 7%
+    * DMG increased to 6%
 * Up smash
     * Late hit BKB and DMG increased
     * Late hit angle made the same as early hit
