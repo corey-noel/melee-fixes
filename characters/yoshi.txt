@@ -6,13 +6,13 @@ Yoshi
     * Shield will no longer randomly powershield
 * Neutral special
     * No longer grants invulnerability to opponent after break out
-    * Egged DMG multiplier removed/made 1
+    * Egged DMG multiplier made 1.5
 * Up special
     * Eggs will last 1.3 times as long before breaking
 * Forward special
     * Egg roll pops Yoshi up slightly on the first use each airtime
     * Hitboxes cleaned up to actually be on the egg
-    * Can be canceled sooner by pressing B again
+    * Can be canceled sooner
     * Does not put Yoshi into helpless
 * Forward air
     * Slight startup decrease

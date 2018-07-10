@@ -1,7 +1,7 @@
 Zelda
 ----------
 * Attributes
-    * Increased to max air speed and air accel
+    * Increased max air speed and air accel
     * Decreased traction for longer wavedash
     * Increased initial dash speed and run speed
     * Jumpsquat reduced to 5 frames
@@ -18,14 +18,13 @@ Zelda
     * Landing lag decreased
 * Uair
     * Hitbox made larger and lower to be closer to Zelda
-    * Startup and englad both reduced slightly
+    * Startup and endlag both reduced slightly
     * KBG and BKB increased
 * Dair
     * BKB and KBG increased massively
     * Made electric
     * DMG increased to 12%
 * Jab
-    * Startup reduced by 4 frames
     * Hitboxes redone. Only has two hitboxes, one on Zelda's arm and the other on the spark. Both made larger, with the move reaching further and lower than before
     * Hits on 7, 9, 11, and 13, each dealing 2%
     * BKB increased

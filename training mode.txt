@@ -13,44 +13,50 @@ Training Mode
     * Each port selects a character and whether or not they are an AI
     * At least one port must be set to being a human to start
 
+& symbol indicates that listed options are each a toggle
+Choosing multiple will result in a random selection
+
 * Universal options
-    * CPU DMG
-        * 0-999
-    * CPU DMG reset
-        * Never
-        * Fixed DMG (take no DMG from hits)
-        * On pause
-        * After 30 frames of not being touched (or pause)
-    * Player DMG
-        * 0-999
-    * Player DMG reset
-    * Advanced display: Off/On
-        * Input and frame data display
-    * Advanced overlay (each of off, simple, and advanced are a toggle)
-        * Simple: Hitbox, hurtbox, invincibility, intangibility
-        * Moderate: Missed l-cancels, stand still, DI/SDI/Shield DI display
-        * Advanced: Hitstun, actionable, ECB overlay, ledge grab boxes
-    * D-pad function (Either functions or taunt, functions by default)
-        * Functions
-            * Down - Record
-                * Game will record player inputs until down on the d-pad is pressed again, for use with some other features
-                * All empty space before the first input and after the last input will be trimmed
-                * If buttons are being held when you start recording, these will not count toward "untrimmed" frames. The game will look for the first change to an button input or a stick. (This means you can input stuff like quick shield drops easily, by holding shield and a direction when you are holding start. The game will only care about what is input after you start to tilt shield).
-            * Up - Replay
-                * AI will replay the recorded input once
-            * Left - Save state
-            * Right - Load state
-        * Taunt
-            * Taunt instead in case you wanted to for some reason
-    * Replay start padding (empty frames added to start of replay)
-        * 0
-        * Random (0 - 10)
-        * 1 - 60 frames
-    * Replay end padding
-        * 0 - 20 frames
+    * Damage options
+        * CPU DMG
+            * 0-999
+        * CPU DMG reset
+            * Never
+            * Fixed DMG (take no DMG from hits)
+            * On pause
+            * After 30 frames of not being touched (or pause)
+        * Player DMG
+            * 0-999
+        * Player DMG reset
+    * Display options
+        * Advanced display: Off/On
+            * Input and frame data display
+        * Advanced overlay (each of off, simple, and advanced are a toggle)
+            * Character models
+            * Simple: Hitbox, hurtbox, invincibility, intangibility
+            * Moderate: Missed l-cancels, stand still, DI/SDI/Shield DI display
+            * Advanced: Hitstun, actionable, ECB overlay, ledge grab boxes
+    * Replays and save states
+        * D-pad function (Either functions or taunt, functions by default)
+            * Functions
+                * Down - Record
+                    * Game will record player inputs until down on the d-pad is pressed again, for use with some other features
+                    * All empty space before the first input and after the last input will be trimmed
+                    * If buttons are being held when you start recording, these will not count toward "untrimmed" frames. The game will look for the first change to a button input or a stick. (This means you can input stuff like quick shield drops easily, by holding shield and a direction when you are holding start. The game will only care about what is input after you start to tilt shield).
+                * Up - Replay
+                    * AI will replay the recorded input once
+                * Left - Save state
+                * Right - Load state
+            * Taunt
+                * Taunt instead in case you wanted to for some reason
+        * Replay start padding (empty frames added to start of replay)
+            * 0 - 60
+        * Replay start padding range
+            * Can specify a range for random selection
+        * Replay end padding
+            * 0 - 20 frames
     * Speed
-        * Full speed
-        * 10%, 20%, 25%, 50%
+        * 10%, 20%, 25%, 50%, 100%
     * Camera settings
         * Regular
         * Zoom out
@@ -67,7 +73,7 @@ Training Mode
         * Dash dance
             * Fixed distance (max)
         * Recorded action (repeating)
-    * CPU action out of hitstun/tech (each a toggle. Selecting multiple will result in a random selection of the selected choices)
+    * CPU action out of hitstun/tech &
         * Airdodge/Shield
         * Airdodge down/Buffer spotdodge
         * Airdodge left or right/Buffer roll
@@ -81,15 +87,15 @@ Training Mode
         * While the opponent is in hitstun, the counter will remain fixed
         * When the opponent leaves hitstun, the counter will reset to 1
         * This results in a counter that lets you see when and for how long your opponent was out of hitstun
-    * AI DI (each a toggle. Selecting multiple will result in a random selection)
+    * AI DI &
         * None
         * 8 cardinal directions (toward, toward up, away, away down, etc)
         * Perfect survival
         * Perfect combo
-    * AI SDI direction
+    * AI SDI direction &
         * None
         * 8 cardinal directions (toward, toward up, away, away down, etc)
-    * AI SDI strength
+    * AI SDI strength &
         * None
         * Only ASDI
         * One unit
@@ -97,19 +103,19 @@ Training Mode
         * Two units
         * Two units + ASDI
         * Perfect SDI
-    * AI tech (each a toggle. Selecting multiple will result in a random selection)
+    * AI tech &
         * Tech in place
         * Tech in
         * Tech out
         * Miss tech
-    * Action on miss tech (each a toggle. Selecting multiple will result in a random selection)
+    * Action on miss tech &
         * Get up attack
         * Straight getup
         * Roll in
         * Roll out
         * Wait (will cause a random wait time, and then choose one of the other selected options)
     * SDI jab reset up (On/Off)
-    * Act out of hitstun/tech (each a toggle. Selecting multiple options will result in a random selection. Drift toward/away selected in addition to other options)
+    * Act out of hitstun/tech & (Drift toward/away selected in addition to other options)
         * Airdodge/Shield
         * Airdodge/Buffer spotdodge/roll
         * Jump
@@ -147,7 +153,8 @@ Training Mode
         * Always
         * Prediction (crudely predicts the number of frames before shield will be hit again)
         * 10-90%
-    * Action out of shield (Each a toggle. With multiple selected, it will choose randomly)
+    * Action out of shield &
+        * Nothing
         * Grab
         * Roll forward
         * Roll backward
@@ -155,21 +162,19 @@ Training Mode
         * Full hop/double jump away
         * Up special
         * Up smash
-        * Nair
-        * Fair
-        * Bair
+        * Nair/Fair/Bair/Dair/Uair
         * Character specific move
             * Has a pre-recorded input for each character. Shines for spacies, DJ land down smash for Peach, etc
         * Jump, then recorded action
         * Spotdodge, then recorded action
         * Drop shield, then recorded action
         * Auto-powershield, then recorded action (requires auto-power shield to be enabled)
-    * AI Shield DI
+    * AI Shield DI &
         * No shield DI
         * Always toward
         * Always away
         * Random
-    * AI Shield DI strength
+    * AI Shield DI strength &
         * None
         * Only ASDI
         * One unit
@@ -179,4 +184,4 @@ Training Mode
         * Perfect SDI
     * Auto-power shield
         * On/Off
-        * Will always power shield, even if shield has been held for many frames
+        * Will always power shield, even if shield has been held for many frame

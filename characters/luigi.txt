@@ -9,7 +9,5 @@ Luigi
     * No longer reduces drift after using
     * Gains max height more easily
     * Interruptibility improved by a few frames
-* Side special
-    * Endlag massively reduced on the first side b used each airtime, if that side b is not a misfire
 * Forward tilt
     * SKB bug removed

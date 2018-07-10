@@ -4,16 +4,15 @@ Samus
     * Roll duration decreased
 * Neutral special
     * Can be charged in the air
-    * Firing animation land cancels
+    * Made transcendent
 * Side special
     * Homing missiles home better
 * Down special
     * Bomb BKB increased
-    * Angle changed to straight up
 * Up smash
     * Now a single hit attack
     * Samus hits in front of and above herself, creating a disjointed explosion hitbox
-    * Great KBG, low startup and endlag. Great anti-air.
+    * Great KBG, low startup and endlag. Great anti-air
 * Grab
     * Standing grab
         * Initial hand hitbox moved to frame 11-12

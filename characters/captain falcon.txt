@@ -4,6 +4,7 @@ Captain Falcon
     * Spotdodge made 17/27
 * Up special
     * Increased edge grab box size, allowing sweetspotting under more moves and slightly more distance
+    * Decreased lag after getting a grab
 * Down air
     * Nipple spike given fire effect
 * Jab

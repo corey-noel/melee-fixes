@@ -1,8 +1,7 @@
 Falco
 ---------------
 * Neutral special
-    * DMG decreased to 1%
-    * Hitstun frames reduced (12 -> 6)
+	* Knockback decreased such that lasers have fewer hitstun frames (12 -> 6)
 * Up special
     * 8 frames of landing lag
 * Down special

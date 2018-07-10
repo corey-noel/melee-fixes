@@ -1,7 +1,6 @@
 Ness
 ----------
 * Attributes
-    * Double jump dips and rises much faster. Can still DJC down and DJC to boost sideways
     * Increased max air speed and slight increase to air accel
     * Slight increase to initial dash speed
 * Neutral special
@@ -11,10 +10,10 @@ Ness
     * No longer puts Ness in helpless after using
 * Up special
     * Projectile has a smaller turn radius and travels faster
-    * Projectile travels through players upon hitting them
+    * Projectile is now transcendent
     * PK Thunder 2
-        * When colliding with walls at a shallow angle, Ness will now ride the wall at the same angle instead of bouncing off of it (like spacies)
-        * When colliding with walls at a steep angle, Ness will turn to ride up the wall (like the current Ness up special)
+        * When colliding with walls at a shallow (less than 45) angle, Ness will now ride the wall at the same angle instead of bouncing off of it (like spacies)
+        * When colliding with walls at a steep angle (greater than 45), Ness will turn to ride up the wall (like the current Ness up special)
         * Hang time at the end of the launch reduced
         * Ability to drift immediately after hang time increased
 * Side special
@@ -22,7 +21,6 @@ Ness
     * Angle on aerial version made more shallow
     * Startup and endlag both reduced by a few frames
     * Aerial version landcancels
-    * Fire hitbox made slightly larger
 * Down special
     * Starts absorbing on frame 5
     * Can be jump cancelled starting on frame 4

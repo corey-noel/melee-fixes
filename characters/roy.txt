@@ -4,8 +4,8 @@ Roy
     * Double jump height increased
     * Given wall jump
     * The hilt hitboxes on many attacks with different hilt/tip knockbacks given fire effects, making it easier to distinguish hilt from the tip
-* Side special
-    * Does a better job of stalling Roy in the air
+* Up special
+    * KBG on last hit massively increased
 * Up air
     * Hilt BKB increased heavily
     * Slight increase to tip BKB
@@ -23,6 +23,9 @@ Roy
 * Back air
     * KBG on all hitboxes increased
     * Functions as a kill move at the hilt
+* Down smash
+    * KBK increased
+    * DMG increased
 * Dash attack
     * Hitbox duration increased by 2 frames
     * Tip BKB and KBG increased

@@ -10,7 +10,7 @@ Kirby
 * Side special
     * Sweetspot made slightly easier to hit
     * Sourspot knockback increased
-    * Slight startup reduction. Great for punishing read spot dodges and techs
+    * Slight startup reduction. Great for punishing reads
 * Neutral special
     * Grab hitbox comes out a few frames sooner (17 -> 13)
     * Swallowing endlag reduced
@@ -36,9 +36,6 @@ Kirby
 * Up throw
     * Will no longer leave stage
     * No longer takes away Kirby's jumps, allowing him to get aerial followups
-* Forward throw
-    * Will no longer leave stage
-    * Can no longer be mashed out of
-* Back throw
+* Forward throw, back throw
     * Will no longer leave stage
     * Can no longer be mashed out of

@@ -7,7 +7,7 @@ Bowser
     * Initial dash speed increased
     * Slight increase to air acceleration
     * Max air speed increased
-    * Hurtboxes on torso/shell made smaller and cleaned up. The spikes on Bowser's shell do not have individual hurtboxes currently, but the torso/shell hurtboxes were made larger than they needed to be in vanilla Melee to include the spikey area. This is dumb.
+    * Hurtboxes on torso/shell made smaller and cleaned up
     * Spotdodge made 17/27 (invincible on frame 2, like every other spotdodge in the game)
     * Roll startup and cooldown improved
     * Double jump height increased
@@ -16,10 +16,9 @@ Bowser
     * Can grab edge backward more reliably
     * No longer reduces drift after using
 * Side special
-    * Startup reduced by a few frames
     * No longer resets Bowser's momentum in the air
 * Down special
-    * KBG, BKB, and DMG increased heavily serving as an early KO move
+    * KBG, BKB, and DMG increased heavily, serving as an early KO move
     * Shield DMG increased to 50 (shields have 50 health max)
     * Disjoint beneath Bowser improved
 * Neutral special
@@ -31,7 +30,6 @@ Bowser
     * Landing lag reduced
 * Forward air
     * DMG increased by 2%
-    * Slight increase to BKB
     * Landing lag reduced
 * Down air
     * Startup reduced
@@ -71,5 +69,3 @@ Bowser
     * Startup reduced
     * Second hit removed
     * Endlag reduced
-* Back throw
-    * KBG increased to serve as a kill throw

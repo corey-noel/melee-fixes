@@ -6,13 +6,15 @@ Mewtwo
     * Slightly increased initial dash speed
     * Slight increase to max air speed
 * Neutral special
-    * Projectile travels faster and no longer wiggles
+    * Projectile travels faster
     * Startup for launch reduced
     * Cooldown from launch reduced
 * Side special
     * Properly reflects
 * Down special
     * Moderate range increase
+    * Will knockdown opponents who are facing away from MewTwo
+    * Will knockdown opponents who are airborne
 * Neutral air
     * Knockback cleaned up to be slightly better at comboing
     * Final hit angle moved to 90 degrees, BKB decreased

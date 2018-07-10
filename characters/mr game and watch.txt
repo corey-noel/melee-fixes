@@ -9,8 +9,8 @@ Mr. Game & Watch
 * Neutral special
     * Does not reset aerial momentum
     * Endlag reduced
-    * First bacon per use of the move always launches at the same moderately low angle
-        * Later bacons take random trajectories
+* Down special
+    * Reduced endlag and lag from absorbing
 * Neutral air
     * Able to be l-cancelled, landing lag slightly increased to compensate (less overall)
 * Up air

@@ -4,9 +4,9 @@ Donkey Kong
     * Shrunk chest hurtbox
     * Spotdodge made 17/27
     * Natural landing lag reduced to 4 frames
-    * Slight increase to double jump height
+    * Shield increased slightly in size
 * Neutral special
-    * DK no longer enters helpless after using, still autocancels the same way
+    * DK no longer enters helpless after using
 * Up special
     * Grounded back hit made lower and larger
     * Gains about 1.2 times as much height
@@ -16,16 +16,18 @@ Donkey Kong
     * Shield DMG massively increased (made 30)
     * Range improved
 * Neutral air
-    * Startup lag reduced (10 -> 5)
-    * Hitboxes made larger and fixed up
+    * Startup lag reduced (10 -> 6)
+    * Hitboxes made larger and cleaned up
+* Back air
+    * Hitbox added on leg
 * Forward air
-    * Startup reduced slightly
     * Autocancel window added <8 50>
 * Down air
     * Startup reduced slightly
     * Endlag reduced
     * Landing lag reduced slightly
-* All tilts, forward and up smash, back air
+* Forward tilt, up tilt, forward smash, up smash
+    * Hitboxes made larger and cleaned up
     * Range/disjoint improved
 * Jab
     * BKB on both hits increased

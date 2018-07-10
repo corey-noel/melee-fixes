@@ -8,17 +8,17 @@ Ice Climbers
     * Upon getting a grab, will always pummel once and then throw
     * Will always throw toward an edge if near one, up if not near an edge
     * Will always miss tech, then regular getup as soon as possible
-    * Will always immediately regular get up from edge
+    * Will always immediately regular get up from edge if not synced
     * Cannot be controlled while the either climber is grabbed, in hitstun, in hitlag, buried, stunned, asleep, or shield broken
 * Spawning airborne will not desynch the climbers
 * Both climbers can grab the edge at once
 * As a note, Ice Climbers can no longer wobble due to the fact that hitstun does not prevent players from mashing out of grabs (hitlag still does, however)
 * Nair
-    * Slight BKB increase
+    * BKB increased
+    * Range increased
 * Up air
     * Range increased
 * Forward air
-    * Startup reduced slightly
     * Meteor hitbox can hit grounded opponents
 * Dash attack
     * Hitbox comes out sooner and stays out longer

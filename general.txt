@@ -2,10 +2,9 @@ Engine Changes
 ---------------
 * Based off of version 1.02
 
-* There is a 2 frame window immediately before a throw releases, during which players can input Throw SDI (TDI), which will translate the release point of the throw
+* There is a 3 frame window immediately before a throw releases, during which players can input Throw SDI (TDI), which will translate the release point of the throw
     * Throw SDI cannot be performed with the C stick or ASDI'd, and is read the on the frames before regular DI is read for throws
     * TDI cannot be done down. Only up, to either side, or to any of the intermediate angles
-    * Rolling/QC inputs will not register for TDI; only smash inputs will be read
     * Throw SDI has half of the effectiveness of regular SDI
     * A small circular visual indicator has been added to the release point of all throws, which will translate with TDI
         * This has implications for all "small" chaingrabs (not on fast fallers). By implementing TDI Yoshi, Roy, and Pichu players will be able to have a level of influence over Sheik/Ganondorf down throw chaingrabs. It is unlikely that this will completely neuter the possibility of these chaingrabs, but rather make escaping them feasible with good tech and good mixups. Slight translations in release will not allow for escaping of all followups, merely regrabs at certain percents with perfect inputs. Expect to get down throw f tilted or down throw faired even with perfect TDI, but down throw to regrab could possibly be escapable if you win mixups, do research on how to get out at what percents, and execute perfectly
@@ -38,14 +37,9 @@ Inputs
 
 Aesthetics
 ---------------
-* Each character has exactly 4 skins unlocked by default
-    * Their default skin and one for each team color
-    * Or, for characters whose default skin is a team color, one additional skin
-    * Alternate skins are unlocked in single player and by getting certain in-game achievements
-    * Some alternate skins are simply recolors or slightly altered designs, others are entirely different and are references to the games the characters are from
 * There is a visual and audio indicator for when a player is mashing out of a grab/sleep/stun/bury/shield break
 * A noise plays when an invincible character is attacked
-* Tags and other effects become invisible when the player becomes invisible
+* Tags and oswther effects become invisible when the player becomes invisible
 
 Effects
 ----------------
@@ -67,10 +61,3 @@ Game Options
     * On
     * Off
     * Hold (one second)
-* Holding start while starting a match will start the match as a hand warmer
-    * 30 second timer
-    * Same stage and characters that were selected
-    * No stock count
-    * Players cannot hit each other
-    * When the 30 seconds expire, the game goes immediately into the match
-    * Quitting out of a hand warmer enters the match immediately

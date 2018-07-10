@@ -2,3 +2,4 @@ Sheik
 ---------------
 * Neutral special
     * Aerial needle angles and grounded needle heights are no longer RNG
+    * Needle visuals made larger and more distinct

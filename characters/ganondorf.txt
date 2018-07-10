@@ -9,7 +9,9 @@ Ganondorf
     * Spotdodge made 17/27
 * Up special
     * Increased edge grab box size, allowing sweetspotting under more moves
+    * Lag upon getting a grab reduced
 * Side special
+    * Movement speed increased
     * Grounded side special angle changed to 90
     * Aerial launch angle changed to 340 degrees (slightly below straight forward)
     * BKB and KBG on both aerial and grounded versions increased

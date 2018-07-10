@@ -1,11 +1,12 @@
 Young Link
 ---------------
 * Neutral special
-    * Charge can be stored like any other charge projectile, press shield to cancel charge and store it
-    * Charge speed halved (duration doubled)
     * BKB increased
     * Cool-down reduced
     * Pointblank arrow sourspot removed
+* Up special
+    * Grounded up special given weight dependent fixed knockback that will not cause knockdown
+    * Last hit BKB increased
 * Side special
     * Returning boomerang KB increased
     * Boomerang catch made entirely interruptible
