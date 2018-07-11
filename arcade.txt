@@ -1,9 +1,3 @@
-Arcade mode
-----------
-* Arcade mode is a special Melee type
-* In it, characters are modified to be moderately ridiculous
-* They are buffed and silly, but not so far that the game becomes unplayable
-
 Bowser
 ----------
 * As Bowser deals damage or is damaged, he builds rage
@@ -23,39 +17,6 @@ Bowser
 		* Increased run speed and weight
 		* Decreased jump squat
 
-Captain Falcon
-----------
-* Strong knee gives CF his double jump back
-* Knee, stomp, and all grounded moves are interruptible with jump
-
-Donkey Kong
-----------
-* Side special
-	* Replaced with a barrel roll
-	* DK rolls a barrel in front of himself
-	* Barrel bounces at a fixed height (not dependent on distance fallen)
-	* Horizontal speed is dependent on distance barrel fell during initial toss
-	* Or, if the barrel falls off a platform, it will speed up
-* Neutral special
-	* Fully charges in two winds
-
-Link
-----------
-* Down special
-	* Made into a toggle between regular mode and bomb mode
-	* Regular mode is, well, regular
-	* In bomb mode, all of Link's normals are replaced with the bomb throw tied to that move, with the exception of z-dropping
-
-Marth
-----------
-* Tippers on all moves given a new, special stun effect
-* Duration of stun based on the amount of knockback taken from the move
-* Once stunned, opponents are frozen where they are for what is essentially long, non-SDIable hitlag before they are sent flying
-* Opponents will not fall during stun if they are not grounded
-* When stun ends, opponents will go flying in whatever direction the move they were most recently hit by will send them
-* In other words, if they are hit again during stun, they will take the trajectory of the move that hit them during stun
-* Non-tipper hitboxes made uselessly weak and given priority over tipper hitboxes (which is even worse than them being removed)
-
 Ness
 ----------
 * Neutral special
@@ -66,17 +27,3 @@ Ness
 	* If Ness is hit or grabbed before the projectile bursts (even if he has already let go of B) the projectile will fizzle and not burst
 * Down special
 	* If Ness holds down special for three seconds, he will drop a trap hitbox, whose location will be indicated by small visual effect
-
-Peach
-----------
-* Peach's down special no longer pulls turnips, but now instead pulls various items from the game
-* Consumable items are immediately consumed
-* Some items are more rare than others and appear much less often due to power level
-	* Super Star
-	* Heart container
-	* Hammer
-
-Sheik/Zelda
-----------
-* Down special
-	* Transform is only one frame long
