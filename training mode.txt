@@ -1,187 +1,272 @@
-Training Mode
----------------
-* Completely redone training mode. Centers around multiple different "modes" of training, each focused on improving one area of play or allowing for exploration of one of the aspects of the game
-    * Practice mode
-        * For practicing tech, spacing, and special things
-    * Punish Mode
-        * For practicing punishes, CPU can be made to DI
-    * Pressure mode
-        * For practicing pressure, CPU can be made to perform defensive options
+## Training Mode
 
-* Allows multiple players to enter training mode as players
-    * Character select in training looks similar to the regular character select
-    * Each port selects a character and whether or not they are an AI
-    * At least one port must be set to being a human to start
+* Character select in training looks similar to the regular character select. Each port selects a character and whether or not they are an CPU
 
-& symbol indicates that listed options are each a toggle
-Choosing multiple will result in a random selection
+* At least one port must be set to human to start. Allows multiple players to enter as a human
 
-* Universal options
-    * Damage options
-        * CPU DMG
-            * 0-999
-        * CPU DMG reset
-            * Never
-            * Fixed DMG (take no DMG from hits)
-            * On pause
-            * After 30 frames of not being touched (or pause)
-        * Player DMG
-            * 0-999
-        * Player DMG reset
-    * Display options
-        * Advanced display: Off/On
-            * Input and frame data display
-        * Advanced overlay (each of off, simple, and advanced are a toggle)
-            * Character models
-            * Simple: Hitbox, hurtbox, invincibility, intangibility
-            * Moderate: Missed l-cancels, stand still, DI/SDI/Shield DI display
-            * Advanced: Hitstun, actionable, ECB overlay, ledge grab boxes
-    * Replays and save states
-        * D-pad function (Either functions or taunt, functions by default)
-            * Functions
-                * Down - Record
-                    * Game will record player inputs until down on the d-pad is pressed again, for use with some other features
-                    * All empty space before the first input and after the last input will be trimmed
-                    * If buttons are being held when you start recording, these will not count toward "untrimmed" frames. The game will look for the first change to a button input or a stick. (This means you can input stuff like quick shield drops easily, by holding shield and a direction when you are holding start. The game will only care about what is input after you start to tilt shield).
-                * Up - Replay
-                    * AI will replay the recorded input once
-                * Left - Save state
-                * Right - Load state
-            * Taunt
-                * Taunt instead in case you wanted to for some reason
-        * Replay start padding (empty frames added to start of replay)
-            * 0 - 60
-        * Replay start padding range
-            * Can specify a range for random selection
-        * Replay end padding
-            * 0 - 20 frames
-    * Speed
-        * 10%, 20%, 25%, 50%, 100%
-    * Camera settings
-        * Regular
-        * Zoom out
-        * Zoom in
-    * Spawn Items
+*\* Indicates a toggle option. If multiple are selected, CPU will choose one at random*
 
-* Practice Mode options
-    * CPU neutral action
-        * Stand
-            * Do nothing. Recover when put off stage and drop quickly from respawn platform to main platform of stage
-        * Crouch
-        * Short hop
-        * Full hop
-        * Dash dance
-            * Fixed distance (max)
-        * Recorded action (repeating)
-    * CPU action out of hitstun/tech &
-        * Airdodge/Shield
-        * Airdodge down/Buffer spotdodge
-        * Airdodge left or right/Buffer roll
-        * Jump
-        * Nair/Jab
-        * Recorded Action
+## Training options
 
-* Punish Mode options
-    * Features an indicator at the bottom of the screen for how many frames out of hitstun your opponent had.
-        * When the opponent is not in hitstun, the counter will start counting up (once per frame)
-        * While the opponent is in hitstun, the counter will remain fixed
-        * When the opponent leaves hitstun, the counter will reset to 1
-        * This results in a counter that lets you see when and for how long your opponent was out of hitstun
-    * AI DI &
-        * None
-        * 8 cardinal directions (toward, toward up, away, away down, etc)
-        * Perfect survival
-        * Perfect combo
-    * AI SDI direction &
-        * None
-        * 8 cardinal directions (toward, toward up, away, away down, etc)
-    * AI SDI strength &
-        * None
-        * Only ASDI
-        * One unit
-        * One unit + ASDI
-        * Two units
-        * Two units + ASDI
-        * Perfect SDI
-    * AI tech &
-        * Tech in place
-        * Tech in
-        * Tech out
-        * Miss tech
-    * Action on miss tech &
-        * Get up attack
-        * Straight getup
-        * Roll in
-        * Roll out
-        * Wait (will cause a random wait time, and then choose one of the other selected options)
-    * SDI jab reset up (On/Off)
-    * Act out of hitstun/tech & (Drift toward/away selected in addition to other options)
-        * Airdodge/Shield
-        * Airdodge/Buffer spotdodge/roll
-        * Jump
-        * Nair/Jab
-        * Drift Away
-        * Drift Toward
-        * Recorded action
+### Damage options
 
-* Pressure Mode options
-    * Features an indicator at the bottom of the screen for how many frames out of shieldstun/hitlag your opponent had.
-        * When the opponent is not in shieldstun, the counter will start counting up (once per frame)
-        * While the opponent is in shieldstun, the counter will remain fixed
-        * When the opponent leaves shieldstun, the counter will reset to 1
-        * This results in a counter that lets you see when and for how long your opponent was out of shieldstun
-    * Shield Regeneration
-        * Normal
-        * Always full
-            * No DMG, depletion, or regen
-        * Always half
-            * No DMG, depletion, or regen
-        * Instant recovery
-            * Upon breaking, dropping shield, getting poked, or acting out of shield, shield regens to full immediately. Depletes and takes DMG
-        * No depletion
-            * Shield will take DMG, but does not deplete while held
-        * No depletion + Instant recovery
-            * Shield will take DMG, but does not deplete while held + instant recovery
-        * Static
-            * Shield will stay at whatever size it is at when set to static. No depletion, DMG, or regen. Can be used in conjunction with no depletion mode to fix to any shield size
-    * Shield tilt
-        * Neutral
-        * Always exactly toward
-        * 8 cardinal + diagonal directions
-    * Act out of shield chance (upon leaving shieldstun)
-        * Never
-        * Always
-        * Prediction (crudely predicts the number of frames before shield will be hit again)
-        * 10-90%
-    * Action out of shield &
-        * Nothing
-        * Grab
-        * Roll forward
-        * Roll backward
-        * Spotdodge
-        * Full hop/double jump away
-        * Up special
-        * Up smash
-        * Nair/Fair/Bair/Dair/Uair
-        * Character specific move
-            * Has a pre-recorded input for each character. Shines for spacies, DJ land down smash for Peach, etc
-        * Jump, then recorded action
-        * Spotdodge, then recorded action
-        * Drop shield, then recorded action
-        * Auto-powershield, then recorded action (requires auto-power shield to be enabled)
-    * AI Shield DI &
-        * No shield DI
-        * Always toward
-        * Always away
-        * Random
-    * AI Shield DI strength &
-        * None
-        * Only ASDI
-        * One unit
-        * One unit + ASDI
-        * Two units
-        * Two units + ASDI
-        * Perfect SDI
-    * Auto-power shield
-        * On/Off
-        * Will always power shield, even if shield has been held for many frame
+###### CPU DMG
+Options | Notes
+- | -
+0-999 |
+
+###### CPU DMG reset
+Options | Notes
+- | -
+Never | Only reset CPU DMG upon reset
+Fixed DMG | Take no DMG from hits
+On pause | Reset upon pausing
+Wait | After 60 frames of being out of hitstun (or pause)
+
+###### Player DMG
+Options | Notes
+- | -
+0-999 |
+
+###### Player DMG reset
+Options | Notes
+- | -
+Never | Only reset CPU DMG upon reset
+Fixed DMG | Take no DMG from hits
+On pause | Reset upon pausing
+Wait | After 60 frames of being out of hitstun (or pause)
+
+### Display options
+
+###### Input display
+Options | Notes
+- | -
+Off |
+Current | Shows what inputs are currently being pressed
+Tracking | Shows a scrolling list of inputs
+
+###### Character models
+Options | Notes
+- | -
+On/Off | Show character models
+
+###### Simple Overlay
+Options | Notes
+- | -
+On/Off | Overlays for hitboxes, hurtboxes, invincibility, intangibility
+
+###### State Overlay
+Options | Notes
+- | -
+On/Off | Overlays for missed l-cancels, stand still, hitstun, actionablability
+
+###### Advanced Overlay
+Options | Notes
+- | -
+On/Off | Overlays for ECB and ledge grab boxes
+
+###### DI Overlay
+Options | Notes
+- | -
+On/Off | Overlays for DI/SDI/Shield DI
+
+### Replays and save states
+
+###### D-pad function
+Options | Notes
+- | -
+Functions | D-pad directions perform functions
+Taunt | D-pad performs taunts
+
+###### Functions
+D-pad directions | Action | Notes
+- | - | -
+Up | Record inputs | Game will record player inputs until down on the d-pad is pressed again, for use with some other features. All empty space before the first change in input and after the last change in input will be trimmed. If buttons are being held when you start recording, these will not count toward "untrimmed" frames
+Down | Replay inputs | CPU will replay the action once
+Left | Save state |
+Right | Load state |
+
+###### Replay start padding minimum
+*(Padding randomly selected between min and max)*
+Options | Notes
+- | -
+0-60 | The minimum empty frames to add as a padding to replay start
+
+###### Replay start padding maximum
+Options | Notes
+- | -
+0-60 | The maximum empty frames to add as a padding to replay start
+
+###### Game Speed
+Options | Notes
+- | -
+10% |
+25% |
+50% |
+100% |
+
+###### Camera settings
+Options | Notes
+- | -
+Regular |
+Fixed | Fixed full-stage camera
+Zoom in | Zoom in on first human port
+
+###### Spawn Items
+Options | Notes
+- | -
+Item | Scrolls through items, clicking spawns
+
+### CPU Options
+###### CPU Neutral Action
+Options | Notes
+- | -
+Stand | Do nothing. Recover when put off stage and drop quickly from respawn platform to main platform of stage
+Shield |
+Crouch |
+Short hop |
+Full hop |
+Dash dance | Fixed, maximum distance
+Recorded action | Repeating
+
+##### CPU Punish options
+###### CPU Action Out of Hitstun/Tech
+*Options\** | Notes
+- | -
+Nothing |
+Shield/airdodge |
+Buffer spotdodge/airdodge down |
+Buffer roll/airdodge sideways |
+Jump |
+Nair/Jab |
+Recorded Action |
+
+###### CPU Drift
+*Options\** | Notes
+- | -
+None |
+Toward |
+Away |
+
+###### CPU DI
+*Options\** | Notes
+- | -
+None |
+Eight directions | Toward, toward up, away, away down, etc
+Perfect survival |
+Perfect combo |
+
+###### CPU SDI Direction
+*Options\** | Notes
+- | -
+None |
+Eight directions | Toward, toward up, away, away down, etc
+
+###### CPU SDI Strength
+*Options\** | Notes
+- | -
+None |
+One unit |
+Two units |
+Perfect SDI |
+
+###### CPU ASDI
+*Options\** | Notes
+- | -
+On/Off | Will ASDI in the same direction as SDI
+
+###### CPU Tech
+*Options\** | Notes
+- | -
+Tech in place |
+Tech in |
+Tech out |
+Miss Tech |
+
+###### CPU Action on Missed Tech
+*Options\** | Notes
+- | -
+Get up attack |
+Straight getup |
+Roll in |
+Roll out |
+Wait | Chooses a random wait time, then picks another option
+
+###### SDI Jab Reset Up
+*Options\** | Notes
+- | -
+On/Off |
+
+#### CPU Shield Options
+###### Shield Regeneration
+Options | Notes
+- | -
+Normal |
+Always full | No DMG, depletion, or regen
+Always half | No DMG, depletion, or regen
+Instant recovery | Upon breaking, dropping shield, getting poked, or acting out of shield, shield regens to full immediately. Depletes and takes DMG
+No depletion | Shield will take DMG, but does not deplete while held
+No depletion + Instant recovery | Shield will take DMG, but does not deplete while held + instant recovery
+Static | Shield will stay at whatever size it is at when set to static. No depletion, DMG, or regen. Can be used in conjunction with no depletion mode to fix to any shield size
+
+###### Shield Tilt
+Options | Notes
+- | -
+Neutral |
+Always exactly toward |
+8 Directions |
+
+###### Act out of shield chance (upon leaving shieldstun)
+Options | Notes
+- | -
+Never |
+Always |
+Prediction | Crudely predicts the number of frames before shield will be hit again
+10-90% |
+
+###### Action out of shield
+*Options\** | Notes
+- | -
+None |
+Grab |
+Roll forward |
+Roll backward |
+Spotdodge |
+Full hop/double jump away |
+Up special |
+Up smash |
+Neutral air |
+Up air |
+Fair air |
+Down air |
+Back air |
+Character specific move | Has a pre-recorded input for each character. Shines for spacies, DJ land down smash for Peach, etc
+Jump, then recorded action
+Spotdodge, then recorded action |
+Drop shield, then recorded action |
+Auto-powershield, then recorded action | Requires auto-power shield to be enabled
+
+###### CPU Shield DI
+*Options\** | Notes
+- | -
+None |
+Toward |
+Away |
+
+###### CPU Shield DI Strength
+*Options\** | Notes
+- | -
+None |
+One unit |
+Two units |
+Perfect shield DI |
+
+###### CPU Auto-Shield DI
+*Options\** | Notes
+- | -
+On/Off | Will auto-shield DI in the same direction as shield DI
+
+###### Auto-power shield
+Options | Notes
+- | -
+On/Off | Will always power shield, even if shield has been held for many frame
