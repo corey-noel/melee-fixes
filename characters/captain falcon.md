@@ -7,6 +7,6 @@
 ### Moves
 | Move |  Changes | Notes |
 | --- | --- | --- |
-| Up special | Increased edge grab box size. Decreased lag after getting a grab | |
+| Up special | Increased edge grab box size <br>Decreased lag after getting a grab | |
 | Jab | Will never enter rapid jab unless A is pressed a fourth time | PAL gentleman |
 | Down air | Nipple spike given fire effect | To help make nipple spike more distinct |

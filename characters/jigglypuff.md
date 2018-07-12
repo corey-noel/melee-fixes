@@ -8,4 +8,4 @@
 ### Moves
 | Move | Changes | Notes |
 | --- | --- | --- |
-| Down special | Duration decreased (249 -> 200). BKB reduced | Move starts killing later, but is safer |
+| Down special | Duration decreased (249 -> 200) <br>BKB reduced | Move starts killing later, but is safer |

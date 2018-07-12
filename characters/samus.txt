@@ -1,23 +1,12 @@
-Samus
----------------
-* Attributes
-    * Roll duration decreased
-* Neutral special
-    * Can be charged in the air
-    * Made transcendent
-* Side special
-    * Homing missiles home better
-* Down special
-    * Bomb BKB increased
-* Up smash
-    * Now a single hit attack
-    * Samus hits in front of and above herself, creating a disjointed explosion hitbox
-    * Great KBG, low startup and endlag. Great anti-air
-* Grab
-    * Standing grab
-        * Initial hand hitbox moved to frame 11-12
-        * Tether portion moved to 13-29
-        * Total animation length shortened (94 -> 74)
-    * Running grab
-        * Initial hand hitbox moved to frame 13-14
-        * Tether portion moved to 15-33
+## Samus
+### Attributes
+| Attribute | Changes | Notes |
+| Roll Duration | Decreased | |
+
+### Moves
+| Neutral Special | Can be charged in the air <br>Made transcendent | |
+| Side Special | Homing missiles home better | |
+| Down Special | Bomb BKB increased | |
+| Up Smash | Now a single hit attack <br>Samus hits in front of and above herself, creating an explosion <br>Great KBG, low startup and endlag | Disjointed explosion, great anti-air |
+| Standing Grab | Initial hand hitbox moved to frame 11-12 <br>Tether portion moved to 13-29 <br>Total animation length shortened (94 -> 74) | |
+| Dash Grab | Initial hand hitbox moved to frame 13-14 <br>Tether portion moved to 15-33 | |
