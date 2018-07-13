@@ -26,8 +26,9 @@
 * New down special: Discharge
 * Charges as Pichu takes recoil DMG. Goes through various stages, with sparks around Pichu becoming more visually apparent in each stage. Can be released at any stage, with varying effects based on the amount of recoil DMG taken since last use
 * Stages
-| Damage | Effect | Notes | Damage | Recoil Damage |
-| --- | --- | --- | --- |
+
+| Damage to Charge | Effect | Notes | Damage Dealt | Recoil Damage |
+| --- | --- | --- | --- | --- |
 | 0-1 | No effect | Fizzles, resets to 0 | 0 | 0 |
 | 2-4 | A short, shine-esque burst. Sends up and away, has KBG | Doesn't come out frame 1 and not jump cancelable, but very quick with little lag. Doesn't necessarily combo floaties | 5 | 1 |
 | 5-7 | A quick and damaging double hit. Meteors opponents twice, causing them to reel from the meteor angle long enough to be confirmed out of | Think Zelda down tilt (if it worked), but twice | 6 (x2) | 2 |
