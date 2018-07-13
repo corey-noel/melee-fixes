@@ -1,9 +1,12 @@
 ## Samus
 ### Attributes
 | Attribute | Changes | Notes |
+| --- | --- | --- |
 | Roll Duration | Decreased | |
 
 ### Moves
+| Move | Changes | Notes | 
+| --- | --- | --- |
 | Neutral Special | Can be charged in the air <br>Made transcendent | |
 | Side Special | Homing missiles home better | |
 | Down Special | Bomb BKB increased | |
