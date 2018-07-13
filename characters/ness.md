@@ -8,6 +8,7 @@
 
 ### Moves
 | Move | Changes | Notes |
+| --- | --- | --- |
 | Neutral special | Soonest possible burst made sooner, shortly after the end of the startup animation <br>Bursts sooner after B is released (20 -> 10) <br>Lag after bursting heavily decreased <br>No longer puts Ness in helpless after using | |
 | Up special | Projectile has a smaller turn radius and travels faster <br>Projectile is now transcendent | |
 | PK Thunder 2| When colliding with walls at a shallow (less than 45) angle, Ness will now ride the wall at the same angle instead of bouncing off of it (like spacies) <br>When colliding with walls at a steep angle (greater than 45), Ness will turn to ride up the wall (like the current Ness up special) <br>Hang time at the end of the launch reduced <br>Ability to drift immediately after hang time increased | |
