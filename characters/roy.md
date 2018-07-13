@@ -8,6 +8,7 @@
 
 ### Moves
 | Moves | Changes | Notes |
+| --- | --- | --- |
 | Up special | KBG on last hit massively increased | |
 | Up air | Hilt BKB increased heavily <br>Slight increase to tip BKB | |
 | Forward air | Hilt angle lowered to be almost horizontal <br>Hilt BKB massively increased <br>Tip pops up, similar to Marth's, but weaker <br>Tip BKB heavily increased | |
