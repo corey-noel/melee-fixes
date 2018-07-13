@@ -7,6 +7,8 @@
 | Initial dash speed | Slight increase| |
 
 ### Moves
+| Move | Changes | Notes |
+| --- | --- | --- |
 | Neutral special | Projectile travels faster <br>Startup for launch reduced <br>Cooldown from launch reduced | |
 | Side special | Properly reflects | |
 | Down special | Moderate range increase <br>Will knockdown opponents who are facing away <br>Will knockdown airborne opponents | |
