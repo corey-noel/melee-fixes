@@ -42,6 +42,8 @@
 
 * If multiple characters grab an edge on the same frame, those characters will gain a full second of invincibility and immediately enter their regular getup
 
+#### Other
+
 * If a character is hit by two attacks on the same frame, knockback will stack via vector addition rather than replacement
 
 * All ports now spawn airborne on the first stock, rather than just ports 3 and 4
@@ -49,8 +51,6 @@
 * All ports spawn at the same time on the first stock
 
 * On all stages, all ports respawn above the center of the stage
-
-* Automatic neutral starts
 
 ## Neutral starts
 
