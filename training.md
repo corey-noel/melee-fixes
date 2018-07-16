@@ -133,7 +133,7 @@ When the opponent is not in hitstun/shieldstun, the counter will start counting 
 | Dash dance | Fixed, maximum distance |
 | Recorded action | Repeating |
 
-#### CPU Punish options
+## CPU Punish options
 #### CPU Action Out of Hitstun/Tech
 | *Options\** | Notes |
 | --- | --- |
@@ -201,7 +201,7 @@ When the opponent is not in hitstun/shieldstun, the counter will start counting 
 | --- | --- |
 | On/Off | |
 
-### CPU Shield Options
+## CPU Shield Options
 #### Shield Regeneration
 | Options | Notes |
 | --- | --- |
