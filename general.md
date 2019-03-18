@@ -22,7 +22,7 @@
 
 * Many non-item wielding characters (not Link, YL, or Peach) have had their item throws redone or buffed
 
-* No hitstun knockback (characters not going into hitstun when hit by vertically launching moves that deal less than 7% during knockdown) removed for moves that hit stronger than the knockdown/tumble threshold. Maintained for moves that hit weaker than this threshold, allowing for jab resets to still be escaped
+* No hitstun knockback (characters not going into hitstun when hit by vertically launching moves that deal less than 7% during knockdown, aka that weird thing that happens with Falco shine and Pikachu down smash) removed for moves that hit stronger than the knockdown/tumble threshold. Maintained for moves that hit weaker than this threshold, allowing for jab resets to still be escaped
 
 * Threshold for breaking crouch cancel unchanged, but the amount it reduces hitstun by decreased
 
@@ -62,8 +62,6 @@
 
 * Made shield dropping more lenient, so as to make it no longer controller dependent
 
-* Input polling issue fixed. Is now tied to processing frames, making inputs feel cleaner and more consistent, especially when playing at slow speeds (such as in training mode)
-
 ## Aesthetics
 
 * There is a visual and audio indicator for when a player is mashing out of a grab/sleep/stun/bury/shield break
@@ -74,7 +72,7 @@
 
 ## Effects
 
-* Characters can now be knocked out of bury by hits that deal more than 16%
+* Characters can now be knocked out of bury by hits that deal more than 14%
 
 * Buried characters do not get invincibility when they leave bury
 
@@ -98,9 +96,7 @@
 
 * Stocks = 4
 
-* Time Limit = 4 minutes
-
-* Stock Match Time Limit = 6 minutes
+* Stock Match Time Limit = 8 minutes
 
 * Friendly Fire = On
 

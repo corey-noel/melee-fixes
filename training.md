@@ -1,6 +1,6 @@
 # Training Mode
 
-* Character select in training looks similar to the regular character select. Each port selects a character and whether or not they are an CPU
+* Character select in training looks similar to the regular character select. Each port selects a character and whether or not they are a CPU
 
 * At least one port must be set to human to start. Allows multiple players to enter as a human
 
