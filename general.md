@@ -22,11 +22,11 @@
 
 * Many non-item wielding characters (not Link, YL, or Peach) have had their item throws redone or buffed
 
-* No hitstun knockback (characters not going into hitstun when hit by vertically launching moves that deal less than 7% during knockdown, aka that weird thing that happens with Falco shine and Pikachu down smash) removed for moves that hit stronger than the knockdown/tumble threshold. Maintained for moves that hit weaker than this threshold, allowing for jab resets to still be escaped
-
-* Threshold for breaking crouch cancel unchanged, but the amount it reduces hitstun by decreased
+* Item rotation upon being thrown, dropped, or knocked out of someone's hands made consistent
 
 * Items being knocked out of hands are no longer random. They will drop guaranteed if the character holding the item has taken 60 DMG since starting to hold it, and will not drop before this
+
+* No hitstun knockback (characters not going into hitstun when hit by vertically launching moves that deal less than 7% during knockdown, aka that weird thing that happens with Falco shine and Pikachu down smash) removed for moves that hit stronger than the knockdown/tumble threshold. Maintained for moves that hit weaker than this threshold, allowing for jab resets to still be escaped
 
 #### Throw SDI
 
@@ -36,21 +36,15 @@
 
   * TDI cannot be done down. Only up, to either side, or to any of the intermediate angles
 
-  * Throw SDI has half of the effectiveness of regular SDI
-
   * A small circular visual indicator has been added to the release point of all throws, which will translate with TDI
 
-    * This has implications for all "small" chaingrabs (not on fast fallers). By implementing TDI Yoshi, Roy, and Pichu players will be able to have a level of influence over Sheik/Ganondorf down throw chaingrabs. It is unlikely that this will completely neuter the possibility of these chaingrabs, but rather make escaping them feasible with good tech and good mixups. Slight translations in release will not allow for escaping of all followups, merely regrabs at certain percents with perfect inputs. Expect to get down throw f tilted or down throw faired even with perfect TDI, but down throw to regrab could possibly be escapable if you win mixups, do research on how to get out at what percents, and execute perfectly
+    * This has implications for all "small" chaingrabs (not on fast fallers). By implementing TDI Yoshi, Roy, and Pichu players will be able to have a level of influence over Sheik/Ganondorf down throw chaingrabs. It is unlikely that this will completely neuter the possibility of these chaingrabs, but rather make escaping them feasible with good tech and good mixups. Slight translations in release will not allow for escaping of all followups, merely regrabs at certain percents with perfect inputs. Expect to get down throw f tilted or down throw faired even with perfect TDI, but down throw to regrab could possibly be escapable if you win mixups, do research on how to get out at what percents, and execute perfectly. While their throws will still be punishing, heavy hitting, and allow for many followups, they will not be guaranteed damage from x to y percent into a kill move if the opponent knows how to get out and reads their timing mixups. Very easily chain grabbed characters have some hope of getting out of grabs if they can win interactions during chaingrabs and have good tech
 
     * Chaingrabs on fastfallers will not be affected as much. TDI to either side will be easy to cover with a dash regrab, while TDI up might possibly need to be covered with an up tilt or up air in some cases.
 
     * Additionally, it will become possible to mix up the timing of some faster throws to avoid the possibility of Throw SDI entirely
 
-    * This is to avoid the potential unfortunate reality of a meta where characters with excessive amounts of chaingrabs are all relevant and dominant: Sheik, Ganondorf, Plumbers, Pikachu/Pichu, G&W, and others. While their throws will still be punishing, heavy hitting, and allow for many followups, they will not be guaranteed damage from x to y percent into a kill move if the opponent knows how to get out and reads their timing mixups. Very easily chain grabbed characters have some hope of getting out of grabs if they can win interactions during chaingrabs and have good tech.
-
 ## Inputs
-
-* Made dashing back one frame more lenient
 
 * C-stick performs smash attacks/aerials/buffered shield options/buffered throws in single player
 
@@ -60,7 +54,9 @@
 
 * Made L-cancelling 3 frames more lenient
 
-* Made shield dropping more lenient, so as to make it no longer controller dependent
+* Made dashing back one frame more lenient (UCF)
+
+* Made shield dropping more lenient, so as to make it no longer controller dependent (UCF)
 
 ## Aesthetics
 
@@ -85,8 +81,6 @@
 * Pause options redone
 
   * On
-
-  * Off
 
   * Hold (one second)
 
