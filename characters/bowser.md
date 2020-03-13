@@ -3,7 +3,7 @@
 | Attribute | Changes | Notes |
 | --- | --- | --- |
 | Jump squat | Reduced to 5 frames | All jumpsquats longer than 5 frames made 5 |
-| Natural landing lag | Reduced to 4 frames | |
+| Natural landing lag | Reduced to 4 frames | All natural landing lags worse than 4 frames made 4 |
 | Walk speed | Increased heavily | |
 | Initial dash speed | Increased | |
 | Air acceleration | Slightly increased | |

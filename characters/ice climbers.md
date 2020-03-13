@@ -1,4 +1,6 @@
 ## Ice Climbers
+## WIP I guess
+
 * AI
     * AI can pivot/dashdance, removing dash dance desynchs but improving movement
     * AI will always prioritize dashing back to partner when desynched and not under the sphere of influence. Will never choose to attack or taunt. If partner is unreachable (offstage), they will wait for them to get back at their current location

@@ -8,5 +8,4 @@
 | Move |  Changes | Notes |
 | --- | --- | --- |
 | Jab | Will never enter rapid jab unless A is pressed a fourth time | PAL gentleman |
-| Up air | Hitboxes made slightly smaller | |
 | Down air | Nipple spike given fire effect | To help make nipple spike more distinct |

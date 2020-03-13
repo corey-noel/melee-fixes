@@ -1,4 +1,7 @@
 ## Sheik
+### Note
+Please read the general changes
+
 ### Moves
 | Moves | Changes | Notes
 | --- | --- | --- |

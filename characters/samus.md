@@ -5,8 +5,9 @@
 | Roll Duration | Decreased | |
 
 ### Moves
-| Move | Changes | Notes | 
+| Move | Changes | Notes |
 | --- | --- | --- |
+| Up special | Can fast fall sooner after using | |
 | Neutral Special | Can be charged in the air <br>Made transcendent | |
 | Side Special | Homing missiles home better | |
 | Down Special | Bomb BKB increased | |
