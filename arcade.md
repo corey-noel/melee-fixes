@@ -10,10 +10,6 @@
 * Run (after initial dash ends) has a hitbox on Bowser's shell that pops up and forward
 
 #### Badge B
-* Full hop and double jump heights increased
-* Given a second double jump
-* Dash speed increased
-* Air drift increased
 
 #### Badge C
 * As Bowser deals damage or is damaged, he builds rage. Taking damage builds at half the rate of the damage taken, while dealing damage builds at a rate equal to the damage taken.
@@ -31,7 +27,6 @@
 
 ## Captain Falcon
 #### Badge A
-* All grounded moves are interruptible with jump after hitting
 
 #### Badge B
 
@@ -54,11 +49,11 @@
 * Grounded side special leaves a pitfall trap on the ground where used (only hits grounded opponents, buries them)
 
 #### Badge C
-* Giant punch fully charges in two winds
+* Giant punch fully charges in one wind
 
 ## Falco
 #### Badge A
-* Hitting with a shine gives Falco his double jump back
+* Hitting with a shine gives Falco an additional double jump
 * Up special does not lead into special fall if it hits
 
 #### Badge B
@@ -218,7 +213,7 @@
 * Charge shot charges in 0.3 seconds
 
 #### Badge B
-* All moves can be canceled into charge shot
+* All normal moves can be canceled into charge shot
 
 #### Badge C
 
