@@ -10,23 +10,13 @@
 * Run (after initial dash ends) has a hitbox on Bowser's shell that pops up and forward
 
 #### Badge B
+* Down special replaced with green shell pull. Has a 1/8 chance to instead pull a red shell.
 
 #### Badge C
-* As Bowser deals damage or is damaged, he builds rage. Taking damage builds at half the rate of the damage taken, while dealing damage builds at a rate equal to the damage taken.
-* Once rage is at 160, it is considered to be full. This will be shown by a visual fire effect.
-* Rage carries between stocks
-* Down special replaced with Koopa Rage, which can only be used when rage is full.
-  * Creates a large explosion that drains rage to zero, and Bowser gain 5 seconds of the following effects
-    * Projectile invincibility
-    * Fire effects on all moves
-    * Subtractive armor, much weaker than Yoshi's
-    * 1.2 damage dealt
-    * Increased run speed and weight
-    * Neutral special travels much further and knocks down
-    * Side special back throw kills at relatively low percents
 
 ## Captain Falcon
 #### Badge A
+* Falcon kick can be jumped out of. 
 
 #### Badge B
 
@@ -66,7 +56,7 @@
 
 #### Badge B
 * Side B can be jumped out of
-* Aerial Side B does not take double jump
+* Side B does not take double jump
 
 #### Badge C
 
@@ -110,6 +100,7 @@
 * Rock can be jumped out of after it starts to fall
 
 #### Badge C
+* All aerials can be cancelled with double jump.
 
 ## Link
 #### Badge A
@@ -174,6 +165,7 @@
 * If Ness gets hit before releasing the B button, the projectile will fizzle without bursting
 
 #### Badge C
+* Down special works like shine, has a frame 1 hitbox that sends up and forward.
 
 ## Peach
 #### Badge A
@@ -186,6 +178,7 @@
 * Forward smash and jab move Peach forward slightly (and cause her to slide)
 
 #### Badge C
+* Any pulled items are always frozen (akin to frozen turnips glitch)
 
 ## Pichu
 #### Badge A
