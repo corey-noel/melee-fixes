@@ -20,33 +20,27 @@
 
 * Higher port characters no longer get an additional frame of hitstun when throwing
 
-* If a character grabs two other characters on the same frame, they will always grab the one nearest to them
+* If a character grabs two other characters on the same frame, they will always grab the one nearest to them by x coordinate. 
 
-  * In the realistically impossible case of a tie, the grab will bounce
+  * In the realistically impossible case of a tie, the grab will bounce (all 3 characters will be marked as part of a grab break, see below). 
+
+##### Grab breaks
 
 * If two characters grab each other on the same frame, the grab will "bounce" and both characters will go into the animation of having their grab release
 
-* Move verbosely:
+* More verbosely:
 
-  * I'll be calling the state that occurs after a character escapes a grab **defensive release** (**D-R**), and the state that occurs after a character *has* their grab escaped **Offensive Release** (**O-R**).
+  * When a character grabs another character, if either character has either both been grabbed and landed a grab on the same frame, or if either character has been grabbed by two or more players on the same frame, that character will be marked as being involved in a grab break. 
 
-  * When a character X gets a grab, if the character Y they are grabbing is getting a grab on the same frame, that character X will enter O-R
+  * Then, any characters they grabbed, and all characters grabbing them will also be marked as being involved in a grab break, repeated as necessary.
 
-  * When a character Y gets grabbed, if the character X grabbing them is grabbed on the same frame, that character Y will enter D-R
+  * All characters involved in a grab break will be put into the animation of having their grab escaped, instead of entering a grab.
 
-  * If a character Y is grabbed by both X and Z, X and Z will enter O-R facing Y, and Y will enter D-R in the same direction they were already facing, unless the grab handler has them face a different direction
+  * If a character is aerial, they will instead enter their aerial grab release animation. 
 
-  * If a character would be put into both O-R and D-R by the grab handler, they will be put into O-R
+  * Characters continue to face the direction they were facing before the grab landed.
 
-  * Characters will always be turned to face the character they grabbed/are being grabbed by, with facing the character that they grabbed taking priority
-
-  * In all singles cases not involving ICs, this simply means that both characters grabbed each other on the same frame and will enter O-R
-
-| **When X grabs Y, and ...**  | Y no grab | Y grabs X | Y grabs Z |
-| --- | --- | --- | --- |
-| **Z no grab** | X grabs Y | X and Y in **O-R**, facing each other | X in **O-R** facing Y, Y in **O-R** facing Z, Z in **D-R** facing Y |
-| **Z grabs X** | X in **O-R** facing Y, Y in **D-R** facing X, Z in **O-R** facing X | X in **O-R** facing Y, Y and Z in **O-R** facing X | Each character in **O-R** facing the character they grabbed. Also how? |
-| **Z grabs Y** | X and Z in **O-R** facing Y, Y in **D-R** facing original direction | X and Z in **O-R** facing Y, Y in **O-R** facing X | X and Y in **O-R** facing Y, Y in **O-R** facing Z |
+  * Command grabs will also use this system, meaning they can be broken with a normal grab.
 
 #### Ledge Grabs
 
