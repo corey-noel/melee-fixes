@@ -10,7 +10,6 @@
 | --- | --- | --- |
 | Neutral special | No longer grants invulnerability to opponent after break out <br>Egged DMG multiplier removed | |
 | Forward special | Egg roll pops Yoshi up slightly on the first use each airtime <br>Hitboxes cleaned up to actually be on the egg <br>Can be canceled sooner <br>Does not put Yoshi into helpless | |
-| Forward air | Slight startup decrease | |
 | Dash attack | Nose given invincibility | |
 | Up smash | KBG increased | |
 | Standing grab | Comes out frame 10 <br>Range increased to match animation | |
