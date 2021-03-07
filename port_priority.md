@@ -44,7 +44,7 @@
 
 #### Ledge Grabs
 
-* If multiple characters grab an edge on the same frame, those characters will gain a full second of invincibility and immediately enter their regular getup
+* If multiple characters grab an edge on the same frame, they will all grab edge as normal
 
 #### Other
 
